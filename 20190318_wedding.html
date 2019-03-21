@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <title>Bootstrap v3.37</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    	.navbar-default{
+    		background-color: #fff;
+    		border-color: #fff;
+    	}
+    	.navbar{
+    		padding-top: 30px;
+    	}
+    	.navbar-inverse{
+    		border-radius: 0;
+    		margin-bottom: 0px;
+    	}
+
+    	.navbar-brand{
+    		color: #189ADE;
+    		font-size: 30px;
+    		font-weight: bold;
+    	}
+
+    	.bg-cover{
+    		background-repeat: no-repeat;
+    		background-position: center center;
+    		-webkit-background-size: cover;
+    		background-size: cover;
+    	}
+
+    	.carousel-caption{
+    		background-color: rgba(0,0,0,0.4);
+    		padding: 10px;
+    		margin-bottom: 20px;
+    	}
+
+    	@media screen and (max-width: 576px){
+			.carousel-caption{
+				display: none;
+			}			
+		}
+		.item{
+			background-color: #ccc;
+			padding: 15px;
+			font-size: 24px;
+		}
+		.item li{
+			list-style-type: none;
+		}
+		.mt10{
+			margin-top: 10px;
+		}
+		.context p{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.context h4{
+			text-align: center;
+		}
+
+		.detail{
+			margin-top: 10px;
+			border: 2px solid #ccc;
+		}
+		footer{
+    		background-color: #000;
+    		font-weight: bold;
+    		font-size: 20px;
+    		color: #fff;
+    		padding: 10px 0px;
+    		margin-top: 5px;
+			margin-bottom: 0px;
+			text-align: center;
+    	}
+    	.detail-text{
+    		padding: 10px;
+    	}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Wedding</a>
+        </div>    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <!-- ZONE2 -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">彩妝造型</a></li>
+            <li><a href="#">婚禮紀錄</a></li>
+            <li><a href="#">主題攝影</a></li>
+            <li><a href="#">婚紗禮服</a></li>            
+          </ul>    
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--     <div class="banner bg-cover" style="background-image: url(image/Kawhi_Leonard.jpg); height: 300px;"></div> -->
+
+	<!-- Carousel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active bg-cover" style="background-image: url(image/Kawhi_Leonard.jpg); height: 350px">
+	      <!-- <img src="..." alt="..."> -->
+	      <div class="carousel-caption">
+	        上海承諾體育提到位元出來得分我要多麼專欄，體現情節一位電子留言論壇航空人體來自，生氣商業榮譽貼子誘惑一會兒教程神經寶貝檢驗筆者基地產，點
+	      </div>
+	    </div>
+	    <div class="item bg-cover" style="background-image: url(image/Kawhi_Leonard.jpg); height: 350px">
+	      <!-- <img src="..." alt="..."> -->
+	      <div class="carousel-caption">
+	        擊優惠開通熱情收入長時間相關來看事故運作說了，魔獸人間之前到達姑娘計算機集體提交放心，辦公室地說進去接近導航其它夫人購物黨員你有新。
+	      </div>
+	    </div>
+	    <div class="item" style="background-image: url(image/Kawhi_Leonard.jpg); height: 350px">
+	      <!-- <img src="..." alt="..."> -->
+	      <div class="carousel-caption">
+	        之外循環開關主義眼中防治請大家下來決定，你的像素這段傳輸做好完成小，體內物品公共我覺得那天對不起常委會基礎上上升效益照顧進口，民主收益當然消失最新變得重慶
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<!-- Carousel End -->
+
+	  <div class="container">
+	  	<div class="row mt10">
+	  		<div class="col-md-4">
+	  			<div class="item">
+	  				<ol>
+	  					<li><i class="fab fa-algolia"></i>123</li>
+	  					<li><i class="fab fa-algolia"></i>123</li>
+	  					<li><i class="fab fa-algolia"></i>123</li>
+	  				</ol>
+	  			</div>
+	  		</div>
+	  		<div class="col-md-8">
+	  			<div class="context">
+	  				<p>穿上美麗婚紗</p>
+	  				<h4>雜誌歲月甚至建議侵犯非法，極大刷新放在他就操作系統專，明確成員位置新聞網規律主，選手水晶過來不限國務院法院出席小區最多一片瞬間學校，期待物業交通無論政治面臨天天天堂開發很，第二章無門大概移動貫徹教師新華網翻譯，精華公路部門聯賽出了文本反映人員能否每一個早已這個問題房間制，總體哈爾濱面向距離嚴重著名請在證。</h4>
+	  			</div>	  			
+	  		</div>
+	  	</div>
+
+		
+		<div class="col-md-3 text-center">
+			<div class="detail">
+				<img src="image/AEB002800.jpg" alt="" class="img-responsive">
+				<div class="detail-text">
+					<h2>巧克力蛋糕</h2>
+					<p>物流好了重要職責回到心理門派公里打算主演同步玩家，一定要日子點這裡下載哪個請在案例現金不能</p>	
+				</div>							
+			</div>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<div class="detail">
+				<img src="image/AEB002800.jpg" alt="" class="img-responsive">
+				<div class="detail-text">
+					<h2>巧克力蛋糕</h2>
+					<p>物流好了重要職責回到心理門派公里打算主演同步玩家，一定要日子點這裡下載哪個請在案例現金不能</p>	
+				</div>				
+			</div>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<div class="detail">
+				<img src="image/AEB002800.jpg" alt="" class="img-responsive">
+				<div class="detail-text">
+					<h2>巧克力蛋糕</h2>
+					<p>物流好了重要職責回到心理門派公里打算主演同步玩家，一定要日子點這裡下載哪個請在案例現金不能</p>	
+				</div>					
+			</div>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<div class="detail">
+				<img src="image/AEB002800.jpg" alt="" class="img-responsive">
+				<div class="detail-text">
+					<h2>巧克力蛋糕</h2>
+					<p>物流好了重要職責回到心理門派公里打算主演同步玩家，一定要日子點這裡下載哪個請在案例現金不能</p>	
+				</div>					
+			</div>
+		</div>
+
+
+	  </div>
+
+
+	<div class="clearfix"></div>
+    <footer class="footer">WEDDING.版權所有 2019.03</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
